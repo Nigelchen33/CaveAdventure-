@@ -1,0 +1,22 @@
+This file describes the text in the data file for the Cave Adventure game
+=========================================================================
+
+The files contains the following data items in the order listed
+
+int Number of rows
+int Number of columns
+
+//Player details: 
+String name, Double energy level, int Maximum number of items that can be carried, int positionRow int positionColumn
+
+int Number of items that follow
+Item details(repeated for each item): 
+String name, String long description,int item ID, boolean Can this item be carried, Double energy impact, int positionRow int positionColumn
+
+int Number of hazards that follow
+Hazard details(repeated for each item): 
+String name, String long description, Double energy impact, int positionRow int positionColumn
+
+int num of rockfalls that follow
+Rockfall details(repeated for each fall):
+int positionRow int positionColumn char direction (N, or E, or S, or W) 
